@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>button</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		body{
+			background: black;
+		}
+		.but{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			height: 100px;
+			width: 200px;
+			font-size:30px;
+			border: 5px solid lime;
+			background: #000;
+			transform: translate(-50%,-50%);
+			color:lime;
+			box-shadow: 0 0 10px lime;
+			border-radius: 5px; 
+			transition: 0.3s;
+		}
+		.hover:hover{
+			width: 180px;
+			height: 90px;
+			font-size:25px;
+			box-shadow: 0 0 30px lime;
+			
+		}
+
+		.back{
+			transform: translate(+50%,+50%);
+			top: 10px;
+			left: 10px;
+			height: 30px;
+			width: 60px;
+			font-size:10px;
+		}
+		a{
+			text-decoration:none;
+			color:lime;
+			
+		}
+	</style>
+</head>
+<body>
+	<button class="but back"><a href="main.html">Back</a></button>
+	<button class="but hover">Hover Me</button>
+</body>
+</html>

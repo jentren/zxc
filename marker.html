@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		body{
+			background: black;
+		}
+		.but{
+			position: relative;
+			display: inline-block;
+			top: 50%;
+			left: 10px;
+			height: 70px;
+			width: 140px;
+			font-size:20px;
+			border: 5px solid lime;
+			background: #000;
+			color:lime;
+			box-shadow: 0 0 10px lime;
+			border-radius: 5px; 
+			transition: 0.3s;
+		}
+		.hover:hover{
+			width: 180px;
+			height: 90px;
+			font-size:25px;
+			box-shadow: 0 0 30px lime;
+			
+		}
+		.btns{
+			width: auto 100px;
+			height: auto 100px;
+
+		}
+		.back{
+			transform: translate(+50%,+50%);
+			top: 10px;
+			left: 10px;
+			height: 30px;
+			width: 60px;
+			font-size:10px;
+		}
+		a{
+			text-decoration:none;
+			color:lime;
+			
+		}
+		.content{
+			font-size:20px;
+			color:#0000ff;
+			margin-left: 30%;
+			text-shadow: 0 0 3px #0000ff;
+		}
+	</style>
+</head>
+<body>
+	<button class="but back"><a href="main.html">Back</a></button>
+	<div class="content">
+		<ul>
+			<li>sample text</li>
+			<li>sample text</li>
+			<li>sample text</li>
+		</ul>
+	</div>
+</body>
+</html>
